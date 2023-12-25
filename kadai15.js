@@ -13,7 +13,6 @@ class Item {
 }
 
 // 椅子クラス Chair（Item クラスを継承）
-
 class Chair extends Item {
   constructor(name, price, isSecondHand) {
     super(name, price);
